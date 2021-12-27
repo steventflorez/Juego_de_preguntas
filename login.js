@@ -24,32 +24,11 @@ enter_form.addEventListener('submit', (e) => {
     console.log()
     
 
-    //let crear_usuario = new usuario(input_name.textContent);
-    //crear_usuario.guardar_usuario();
-    //console.log("hola")
+    
 
 })
 
 
 
-/*class usuario {
-    constructor(name) {
-        this.nombre = name
-
-    }
-
-    guardar_usuario() {
-        console.log(localStorage.getItem(this.nombre));
-        console.log(localStorage.getItem("usuario_logeado"));
-       
-        
-        console.log(localStorage.getItem(this.nombre));
-        console.log(localStorage.getItem("usuario_logeado"));
-
-    }
-
-
-
-}*/
 
 
