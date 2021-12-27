@@ -9,6 +9,8 @@ const barra_progreso = document.getElementById("barra_progreso");
 const content = document.getElementById("content");
 const user_name = document.getElementById("user");
 const retiro = document.getElementById("btn-retiro");
+const salir = document.getElementById("salir");
+
 
 
 
@@ -22,7 +24,9 @@ user_name.textContent = localStorage.getItem("usuario_logeado");
 content.textContent = `Acomulado Historico: ${localStorage.getItem(user_name.textContent)}`;
 
 
-
+salir.addEventListener("click",()=>{
+    window.location.href = "/index.html";
+})
 btn_ultima.style.display = "none"
 
 localStorage.setItem("dificultad", 1);

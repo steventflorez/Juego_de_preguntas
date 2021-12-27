@@ -19,7 +19,7 @@ enter_form.addEventListener('submit', (e) => {
         window.location.href = "/index.html";
     }else{
         localStorage.setItem("usuario_logeado", nombre);
-        window.location.href = "/index.html";
+        window.location.href = "/home.html";
     }
     console.log()
     
