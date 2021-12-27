@@ -16,7 +16,7 @@ enter_form.addEventListener('submit', (e) => {
         }
         localStorage.setItem("usuario_logeado", usuario.name);
         localStorage.setItem(usuario.name, usuario.puntos);
-        window.location.href = "/index.html";
+        window.location.href = "/home.html";
     }else{
         localStorage.setItem("usuario_logeado", nombre);
         window.location.href = "/home.html";
