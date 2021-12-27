@@ -1,0 +1,97 @@
+*{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    color: aliceblue;
+    
+}
+
+body{
+    background-image: url(/img/fondo.jpg);
+    background-size: cover;
+    
+}
+.card{
+    background-color: rgba(0, 0, 0, 0.548);
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px black;
+}
+.card-body{
+    text-align: center;
+}
+
+.card-footer{
+    align-items: center;
+    text-align: center;
+}
+.preguntas_1{
+    margin-bottom: 20px;
+}
+
+.pregunta{
+    width: 200px;
+    border-radius: 20px;
+}
+.ultima{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+   
+}
+
+#btn_ultima{
+    width: 60%;
+    
+}
+.barra{
+    margin: 2px 0 50px 0;
+}
+.card_progres{
+   
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.945);
+    
+}
+.card_txt{
+    color: black;
+    text-align: center;
+}
+.progreso{
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.premio{
+    margin-left: 50px;
+}
+.premio_3{
+    margin-left: 110px;
+}
+.premio_4{
+    margin-left: 170px;
+}
+.premio_5{
+    margin-left: 225px;
+}
+.card_login{
+    align-items: center;
+   
+    width: 500px;
+
+}
+
+
+.con_login{
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+}
+
+h2{
+    text-align: center;
+   
+
+}
+
